@@ -9,3 +9,5 @@ export default function Banner2({info}){
         </div>
     )
 }
+
+//object

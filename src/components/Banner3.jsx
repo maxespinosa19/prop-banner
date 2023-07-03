@@ -7,4 +7,5 @@ export default function Banner3({data: {title, content, bgColor, fontColor}}){
 
         </div>
     )
+    //object and destructuring 
 }

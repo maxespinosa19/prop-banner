@@ -5,7 +5,7 @@ import Banner from './components/Banner';
 import Body from './components/Body';
 import Banner2 from './components/Banner2';
 import Banner3 from './components/Banner3';
-
+import Banner4 from './components/Banner4';
 
 const bannerMaterialTwo = {
   title: 'Tied shirt',
@@ -40,7 +40,11 @@ function App() {
    />
    <Banner3
    data={bannerMaterialTwo}
-/>
+  />
+  <Banner4
+  howMany={3}
+  shirt="puma"
+  data={bannerMaterialOne}/>
    <Footer/>
   
    </>
