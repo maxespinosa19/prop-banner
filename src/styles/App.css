@@ -1,0 +1,42 @@
+body{
+
+background: linear-gradient(0deg, rgb(69, 62, 165) 0%, rgb(195, 142, 244) 100%);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+}
+
+.banner-container p, h2{
+    display: flex;
+    justify-content: center;
+}
+
+.banner-container{
+    border-radius: 20px;
+    margin: 30px
+
+    
+}
+
+h1{
+    color:rgb(249, 217, 200);
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    color:rgb(12, 8, 78)
+}
+
+.banner-container:hover{
+    transition: 200ms ease-in;
+ transform: translate(5px);
+}
+
+
+
+.banner-container{
+ transition: 100ms ease-in;
+ transform: translate(0px);
+ 
+}
